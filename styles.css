@@ -1,0 +1,51 @@
+/* style.css-External css file*/
+/*Global styles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: azure;
+    color: blueviolet;
+    line-height: 1.6;
+}
+.container{
+    max-width: 1100px;
+    margin:auto;
+    padding: 20px;
+}
+/*Navigation*/
+nav{
+    background-color: beige;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav ul li a {
+    margin:0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+nav ul li a:hover {
+    background-color:beige;
+}
+/*page 1-profile*/
+.profile-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px; rgba(0,0,0.1);
+    overflow: hidden;
+    margin-top: 30px;
+}
+.pr
