@@ -16,3 +16,11 @@ button{
     color: rgb(147, 192, 177);
     background-color: rgb(20, 110, 110);
 }
+
+nav{
+    background-color: beige;
+    margin: 2px;
+    padding: 2px;
+    flex: right;
+    
+}
